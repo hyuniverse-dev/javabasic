@@ -19,5 +19,8 @@ public class BooleanExample {
         // boolean 타입의 변수 animal 에 true 를 대입하세요.
         boolean isAnimal = true;
         System.out.println("isAnimal == " + isAnimal);
+
+        //////////////////////////////////////////
+
     }
 }
