@@ -49,7 +49,7 @@ public class SwitchExpressionsExample3 {
             case "GOLD" -> {
                 yield (amount * 0.93) - cupon;
             }
-            case "케이스3" -> {
+            case "GENERAL" -> {
                 yield (amount * 0.95) - cupon;
             }
             default -> {
