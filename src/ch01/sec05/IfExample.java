@@ -67,6 +67,8 @@ public class IfExample {
         } else if ("Hello".equals(message)) {
             // 조건(3) message의 문자열이 "Hello" 이면 한국어로 "안녕하세요." 로 번역(출력)
             System.out.println("안녕하세요.");
+        } else {
+            System.out.println("번역이 불가능한 단어입니다.");
         }
     }
 }
