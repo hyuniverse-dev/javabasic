@@ -22,7 +22,5 @@ public class ArrayLengthExample {
         for (int i = 0; i < 4; i++) {
             System.out.println(scores[i]);
         }
-
-        int[][] numbers = {{1, 2, 3}, {4, 5, 6}};
     }
 }
