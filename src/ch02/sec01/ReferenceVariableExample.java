@@ -1,5 +1,7 @@
 package ch02.sec01;
 
+import java.util.Objects;
+
 public class ReferenceVariableExample {
     public static void main(String[] args) {
         // 참조 타입
@@ -14,7 +16,6 @@ public class ReferenceVariableExample {
         String str3 = "자바";
         String str4 = "자바";
         System.out.println("str3 == str4 = " + (str3 == str4));
-
 
     }
 }
