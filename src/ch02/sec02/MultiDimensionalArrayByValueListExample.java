@@ -44,6 +44,5 @@ public class MultiDimensionalArrayByValueListExample {
             }
         }
         System.out.println("A학교의 전체 학생의 평균 점수 = " + ((double) totalSum / totalLength));
-
     }
 }
