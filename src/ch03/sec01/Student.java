@@ -15,11 +15,21 @@ public class Student {
     public Student(String name) {
         this.name = name; // 매개변수명 수정
     }
-    
+
     // 생성자 선언 (생성자 오버로딩)
     public Student(String name, int age, String gender) {
         this.name = name; // 매개변수명 수정
         this.age = age; // 매개변수명 수정
         this.gender = gender; // 매개변수명 수정
+    }
+
+    // introduce 메소드 정의
+    void introduce() {
+        System.out.println("안녕하세요. 제 이름은 " + this.name + "입니다. 나이는 " + this.age + "살이고 " + this.gender + " 학생입니다.");
+    }
+
+    // calculateYear 메소드를 정의하고, 출생연도를 반환하도록 완성하세요.
+    int calculateYear() {
+        return 2025 - this.age;
     }
 }
