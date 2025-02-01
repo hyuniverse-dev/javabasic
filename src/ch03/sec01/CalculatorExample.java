@@ -16,5 +16,13 @@ public class CalculatorExample {
         // average 메소드 호출
         double resultC = calculator.average(10, 20);
         System.out.println("resultC = " + resultC);
+
+        // plusAll 메소드 호출
+        int resultD = calculator.plusAll(1, 2, 10, 20, 40, 30);
+        System.out.println("resultD = " + resultD);
+
+        // averageAll 메소드 호출
+        double resultE = calculator.averageAll(1, 2, 10, 20, 40, 30);
+        System.out.println("resultE = " + resultE);
     }
 }
