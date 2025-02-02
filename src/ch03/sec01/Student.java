@@ -30,6 +30,11 @@ public class Student {
 
     // calculateYear 메소드를 정의하고, 출생연도를 반환하도록 완성하세요.
     int calculateYear() {
-        return 2025 - this.age;
+        if (this.age < 2025) {
+            return 2025 - this.age;
+        }
+        return 0;
+
+//        System.out.println("마지막 줄 입니다."); -> 컴파일 에러 발생(Unreachable code)
     }
 }
