@@ -30,7 +30,7 @@ public class EnumExample {
             default -> null;
         };
 
-        System.out.println("Today is... " + today);
+        System.out.println("Today is... " + today.getKoreanName());
 
     }
 }

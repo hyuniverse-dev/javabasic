@@ -25,6 +25,4 @@ public class RectangleCalculator {
     public double getArea() {
         return this.area;
     }
-
-
 }
