@@ -1,4 +1,6 @@
-package ch04.sec01;
+package ch04.sec01.package1;
+
+import ch04.sec01.package2.Phone;
 
 public class SmartPhone extends Phone {
     private boolean isWifiOn;

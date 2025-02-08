@@ -1,4 +1,6 @@
-package ch04.sec01;
+package ch04.sec01.package1;
+
+import ch04.sec01.package2.Phone;
 
 public class SmartPhoneExample {
     public static void main(String[] args) {
@@ -22,5 +24,6 @@ public class SmartPhoneExample {
 
         System.out.println(smartPhone.getColor());
         System.out.println(smartPhone.getModel());
+        System.out.println(smartPhone.getData());
     }
 }

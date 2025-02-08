@@ -1,10 +1,11 @@
-package ch04.sec01;
+package ch04.sec01.package2;
 
 // 모든 핸드폰의 종류가 가지고 있어야할 속성과 동작을 정의한 부모클래스 (Super class)
 public class Phone {
     // 공통의 필드 선언
     private String model;
     private String color;
+    private String data;
 
     public Phone(String color, String model) {
         checkModel(model);
@@ -31,16 +32,21 @@ public class Phone {
         }
     }
 
-    /// //// Getter | Setter ///////
-    public String getModel() {
-        return model;
+    /// //// public Getter ///////
+    public String getData() {
+        return this.data;
     }
 
-    public String getColor() {
-        return color;
+    /// //// protected Getter ///////
+    protected String getModel() {
+        return this.model;
     }
 
-    /////// 공통의 메소드 선언 ///////
+    protected String getColor() {
+        return this.color;
+    }
+
+    /// //// 공통의 메소드 선언 ///////
 
     // 벨 울림 메소드
     public void bell() {

@@ -10,12 +10,21 @@ public class Singleton {
 
     private static String data = "데이터"; // 필드 추가
 
+
+    private static String MONDAY = "월요일";
+    private static String TUESDAY = "화요일";
+    private static String WEDNESDAY = "수요일";
+
     private Singleton() {
         // 외부에서 호출이 불가능
     }
 
     public static String getData() {
         return data;
+    }
+
+    public static String getMONDAY() {
+        return MONDAY;
     }
 
     // public 접근 권한을 갖는 정적 메소드 선언
