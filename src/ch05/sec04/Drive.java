@@ -9,8 +9,12 @@ public class Drive {
          */
 
         // Bus 인스턴스인지 확인하고, 맞으면 12, 13라인 실행
-        Bus bus = (Bus) vehicle;
-        bus.checkPrice();
+        if (vehicle instanceof Bus bus) {
+            bus.checkPrice();
+        } else if (vehicle instanceof Taxi taxi) {
+            taxi.setBasicPrice();
+        }
+
         vehicle.run();
     }
 
