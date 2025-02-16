@@ -1,4 +1,4 @@
-package ch06.sec01;
+package ch06.sec01.package1;
 
 public class NestedClassExample {
     /*
@@ -33,6 +33,6 @@ public class NestedClassExample {
         System.out.println("--------------");
         System.out.println(b);
         System.out.println("--------------");
-        
+
     }
 }

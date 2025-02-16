@@ -1,4 +1,4 @@
-package ch06.sec01;
+package ch06.sec01.package1;
 
 public class Car {
     /*
@@ -20,7 +20,7 @@ public class Car {
     3. Window
      */
     class Tire {
-        
+
     }
 
     class Engine {
