@@ -10,11 +10,9 @@ public class ExceptionHandlingExample2 {
                 System.out.println("arry[" + i + "] = " + value);
             } catch (NumberFormatException e) {
                 System.out.println("숫자로 변환할 수 없습니다. " + e.getMessage());
-            } catch (ArrayIndexOutOfBoundsException e) {
-                System.out.println("배열의 인덱스를 초과했습니다. " + e.getMessage());
-            } catch (RuntimeException e) {
-
-            } catch (Exception e) {
+            } catch (ArrayIndexOutOfBoundsException | NullPointerException e) {
+                System.out.println("예외가 발생했습니다." + e.getMessage());
+            }catch (Exception e) {
                 System.out.println(e.getMessage());
             }
 
